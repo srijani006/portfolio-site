@@ -1,0 +1,11 @@
+[build]
+command = "npm run build"
+publish = "dist"
+
+[environment]
+NPM_CONFIG_OPTIONAL = "false"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
